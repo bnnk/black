@@ -1,3 +1,5 @@
 recommonmark==0.6.0
-Sphinx==3.2.1
-Pygments==2.6.1
+Sphinx==3.3.0
+Pygments==2.15.0
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
